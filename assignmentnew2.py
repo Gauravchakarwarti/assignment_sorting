@@ -83,7 +83,7 @@ def insertion_sort(arr):
 def dictionary_sort(strings_list):
     return sorted(strings_list, key=lambda s: s.lower())
 
-# Example usage:
+
 strings_list = ["Aeroplane", "Cat", "Bat", "Zebra"]
 sorted_list = dictionary_sort(strings_list)
 print(sorted_list)  # Output: ['Aeroplane', 'Bat', 'Cat', 'Zebra']
